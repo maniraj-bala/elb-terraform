@@ -17,7 +17,7 @@ variable "azs" {
 }
 
 variable "webservers_ami" {
-  default = "ami-0a08e9df1dcec5e89"
+  default = "ami-098e42ae54c764c35"
 }
 
 variable "instance_type" {
