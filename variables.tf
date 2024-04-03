@@ -16,10 +16,10 @@ variable "azs" {
   default = ["us-west-2a", "us-west-2b"]
 }
 
-variable "webservers_ami" {
-  default = "ami-098e42ae54c764c35"
+variable "dev-testing" {
+  default = "ami-0529ae4622e1288aa"
 }
 
 variable "instance_type" {
-  default = "t2.nano"
+  default = "t2.micro"
 }
